@@ -15,7 +15,7 @@ import * as strings from 'ReactHubsiteNavbarApplicationCustomizerStrings';
 import * as SPSearchService from './services/SPSearchService';
 import HubNavBar from './components/HubNavBar';
 import { IHubNavBarProps } from './components/IHubNavBarProps';
-import { IAssociatedSite, IHubSiteData } from '../../../lib/extensions/reactHubsiteNavbar/services/SPSearchService';
+import { IAssociatedSite, IHubSiteData } from './services/SPSearchService';
 import SPPermission from '@microsoft/sp-page-context/lib/SPPermission';
 
 const LOG_SOURCE: string = 'ReactHubsiteNavbarApplicationCustomizer';
